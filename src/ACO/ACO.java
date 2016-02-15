@@ -7,10 +7,6 @@ import java.io.*;
  % through the "Travelling Salesman Problem" search space to return   %
  % a tour with a low distance cost. This ant system apply a global    %
  % update, and an evaporation with each ant iteration.                %
- %                                                                    %
- % Stephen Hyde - 3603453                                             %
- % Cosc 3P71                                                          %
- % Assignment 3                                                       %
  **********************************************************************/
 
 public class ACO {

@@ -3,10 +3,6 @@ package ACO;
  % The class Ant is an object wrapper class to represent an ant       %
  % and all the cities the ant has visitied within the tour, this      %
  % class allows return of each city in the ant tour                   %
- %                                                                    %
- % Stephen Hyde - 3603453                                             %
- % Cosc 3P71                                                          %
- % Assignment 3                                                       %
  **********************************************************************/
 public class Ant {
     private int[] city; //each city in ant tour
