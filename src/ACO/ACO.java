@@ -73,16 +73,12 @@ public class ACO {
 
     /*creates initial population of ants*/
     private void createPop() {
-        Ant ant;
-        int i   = 0;
         popAnts = numCities;
         ants    = new Ant[popAnts]; //creates array of ants size = number of cities
 
         //loop to create instance of each ant
-        while (i < popAnts) {
-            ant = new Ant(popAnts);
-            ants[i] = ant;
-            i++;
+        for(int i = 0; i < popAnts; i++) {
+            ants[i] = new Ant(popAnts);
         }
     }
 
@@ -503,7 +499,7 @@ public class ACO {
     }
 
     public static void main(String[] args) {
-        new ACO();
+        ACO aco = new ACO();
         // TODO code application logic here
     }
 
