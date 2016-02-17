@@ -2,15 +2,14 @@ package ACO;
 
 import java.io.*;
 
-/**
- * *******************************************************************% % The
- * class ACO is a metaheuristic designed to represent the % % ant colony
- * optimization system. This swarm intelligence runs % % through the "Traveling
- * Salesman Problem" search space to return % % a tour with a low distance cost.
- * This ant system apply a global % % update, and an evaporation with each ant
- * iteration. %
- *********************************************************************
- */
+
+ /******************************************************************************* 
+ * The class ACO is a metaheuristic designed to represent the % % ant colony    *
+ * optimization system. This swarm intelligence runs % % through the "Traveling *
+ * Salesman Problem" search space to return % % a tour with a low distance cost.*
+ * This ant system apply a global % % update, and an evaporation with each ant  *
+ * iteration.                                                                   *    
+ *******************************************************************************/
 
 public class ACO {
 
